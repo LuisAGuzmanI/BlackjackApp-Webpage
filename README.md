@@ -1,14 +1,17 @@
-# Webpack Starter
+# BlackjackApp Webpage
 
-Este es el proyecto inicial para crear aplicaciones utilizando webpack.
+Esta pagina web fue hecha para el segundo día del evento 3THONS de la SAITC
+
+Por el equipo: RhoCode
+Usuario de discord: TMR04#2012
 
 ### Notas:
-Recuerden reconstruir los módulos con Node
+Reconstruir los módulos con Node
 ```
 npm install
 ```
 
-Y para construir el bould, recuerden:
+Para construir el build:
 ```
 npm run build
 ```
