@@ -1,0 +1,44 @@
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+var __webpack_exports__ = {};
+
+;// CONCATENATED MODULE: ./src/js/usuarios-page.js
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+var body = document.body;
+
+var crearHtml = function crearHtml() {
+  var html = "\n    <h1 class=\"mt-5\" align=\"center\"> Blackjack Game </h1>\n    <p class=\"mt-2\" align=\"center\"> \xBFTan solo que no tienes con quien jugar 21? Te tenemos cubierto. </p>\n    <hr>\n\n    <div>\n\n    <div class=\"text-center\">\n      <div class=\"my-3 py-3\">\n        <h2 class=\"display-5\">El cl\xE1sico juego de cartas</h2>\n        <p class=\"lead\">Ahora siempre en tu bolsillo</p>\n        <img src=\"../assets/img/screenshot-1.jpg\" width=\"530\" height=\"400\"></img>\n      </div>\n    </div>\n    \n    <div class=\"text-center\">\n      <div class=\"my-3 p-3\">\n        <h2 class=\"display-5\">Prueba tu suerte</h2>\n        <p class=\"lead\">Especialmente si est\xE1s pensando en ir al casino</p>\n        <img src=\"../assets/img/screenshot-2.jpg\" width=\"530\" height=\"400\"></img>\n      </div>\n    </div>\n\n    <div class=\"text-center\">\n      <div class=\"my-3 py-3\">\n        <h2 class=\"display-5\">21!</h2>\n        <p class=\"lead\">El dulce sabor de ese golpe de suerte</p>\n        <img src=\"../assets/img/screenshot-3.jpg\" width=\"530\" height=\"400\"></img>\n      </div>\n    </div>\n\n    <div class=\"text-center\">\n      <div class=\"my-3 p-3\">\n        <h2 class=\"display-5\">Intenta de nuevo</h2>\n        <p class=\"lead\">A veces hay que saber haceptar la derrota</p>\n        <img src=\"../assets/img/screenshot-4.jpg\" width=\"530\" height=\"400\"></img>\n      </div>\n    </div>\n    \n    <div class=\"text-center\">\n      <div class=\"my-3 p-3\">\n        <h2 class=\"display-5\">Descargala ya!</h2>\n        <p class=\"lead\">Disponible en Android</p>\n        <img src=\"../assets/img/qr.png\" width=\"400\" height=\"400\"></img>\n      </div>\n    </div>\n\n    </div>\n\n    <footer class=\"text-muted py-5\">\n        <div class=\"container\">\n            <p class=\"float-end mb-1\">\n                <a href=\"https://github.com/LuisAGuzmanI/webpack-starter\">Webpage GitHub Repository</a>\n            </p>\n            <p class=\"mb-1\">Esta pagina web fue hecha para el segundo d\xEDa del evento 3THONS de la SAITC</p>\n        </div>\n    </footer>\n    ";
+  var div = document.createElement('div');
+  div.innerHTML = html;
+  body.appendChild(div);
+};
+
+var init_ = /*#__PURE__*/function () {
+  var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+    return regeneratorRuntime.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            crearHtml();
+
+          case 1:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee);
+  }));
+
+  return function init_() {
+    return _ref.apply(this, arguments);
+  };
+}();
+;// CONCATENATED MODULE: ./src/index.js
+// import { init_ } from "./js/chistes-page";
+
+init_();
+/******/ })()
+;
