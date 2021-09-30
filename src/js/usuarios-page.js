@@ -54,7 +54,7 @@ const crearHtml = () => {
     <footer class="text-muted py-5">
         <div class="container">
             <p class="float-end mb-1">
-                <a href="https://github.com/LuisAGuzmanI/webpack-starter">Webpage GitHub Repository</a>
+                <a href="https://github.com/LuisAGuzmanI/BlackjackApp-Webpage">Webpage GitHub Repository</a>
             </p>
             <p class="mb-1">Esta pagina web fue hecha para el segundo día del evento 3THONS de la SAITC</p>
         </div>
